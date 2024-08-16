@@ -101,7 +101,11 @@
            print(n3 ,end=",")
            n1=n2
            n2=n3
-<12>           
+<12>   PYTHON PROGRAAM TO PRINT  APATTERN
+       n=int(input())
+       for i in range(0,n):
+           for j in range(0,i+1):
+                print("*" ,end=" ")
       
 
 
