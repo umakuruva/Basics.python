@@ -107,7 +107,16 @@
            for j in range(0,i+1):
                 print("*" ,end=" ")
       
-
+<13>PYTHON PROGRAM TO PRINT SPECIAL PASCAL TRIANGLE
+from math import factorial
+rows=int(input("enter the number of rows")
+ for n in range(rows):
+    for j in range(1,rows-n):
+        print(end=" ")
+    for n range(n+1):
+        ncr=factorial(n)//(factorial(r)*factroial(n-r))
+        print(ncr,emd=" ")
+    print('')
 
 
 
