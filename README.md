@@ -117,6 +117,27 @@ rows=int(input("enter the number of rows")
         ncr=factorial(n)//(factorial(r)*factroial(n-r))
         print(ncr,emd=" ")
     print('')
+<13> C PROGRAM TO FIND GEOMETRIC SEQUENCE OF TWO SERIES:
+           #include<stdio.h>
+#include<math.h>
+int main(){
+    int n;
+    scanf("%d",&n);
+    if (n%2!=0){
+        int a=1;
+        int r=2;
+        int term =(n+1)/2;
+        int result=a*pow(2,term-1);
+        printf("%d",result);
+    }
+    else{
+        int a=1;
+        int r=3;
+        int term=n/2;
+        int result=a*pow(3,term-1);
+        printf("%d",result);
+    }
+}
 
 
 
