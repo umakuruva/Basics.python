@@ -139,6 +139,13 @@ int main(){
     }
 }
 
+<14> PYTHON PROGRAM TO FIND ANGLE IN DEGREES WITH TWO INPUT SIDES
+    # Enter your code here. Read input from STDIN. Print output to STDOUT
+from math import atan2,degrees
+a=int(input())
+b=int(input())
+c=str(round(degrees(atan2(a,b))))
+print(f'{c}\xb0')
 
 
 
