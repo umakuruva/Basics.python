@@ -147,7 +147,20 @@ b=int(input())
 c=str(round(degrees(atan2(a,b))))
 print(f'{c}\xb0')
 
+<15> HACKER RANK PROBLEM ..INTRODUCTION TO SETS
 
+       def average(array):
+    # your code goes here
+    array1=set(array)
+    a=sum(array1)
+    b=len(array1)
+    c=a/b 
+    return c
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    result = average(arr)
+    print(result)
 
 
 
