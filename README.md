@@ -171,7 +171,10 @@ d=c+b
 e=d/2
 f=e-a
 print(int(f))
-
+<17> python program to print palindrome triangle:
+for i in range(1,int(input())+1): 
+    print((((10**i)-1)//9)**2)
+    
 
 
 
