@@ -162,6 +162,16 @@ if __name__ == '__main__':
     result = average(arr)
     print(result)
 
+<16> python program for minf d game
+    import random
+a=random.randint(1,10)
+b=int(input())
+c=a+a
+d=c+b
+e=d/2
+f=e-a
+print(int(f))
+
 
 
 
