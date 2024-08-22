@@ -175,7 +175,15 @@ print(int(f))
 for i in range(1,int(input())+1): 
     print((((10**i)-1)//9)**2)
     
-
+<18> PYTHON PROGRAM TO PRINT CLOSET NUMBER AND DIVISIBLE TO ANOTHER NUMBER
+      n,m=map(int,input().split())
+a=(n//m)*m
+b=a+m
+if((b-n)<=(n-a)):
+    print(b)
+else:
+    print(a)
+    
 
 
 
