@@ -184,7 +184,16 @@ if((b-n)<=(n-a)):
 else:
     print(a)
     
+<19> python program to find the change:
 
+      n=int(input())
+a=(n//10)*10
+b=a+10
+if((b-n)<=(n-a)):
+    print(100-b)
+else:
+    print(100-a)
+    
 
 
 
