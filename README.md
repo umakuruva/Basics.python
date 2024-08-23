@@ -184,7 +184,7 @@ if((b-n)<=(n-a)):
 else:
     print(a)
     
-<19> python program to find the change:
+<19> python program to find the return change:
 
       n=int(input())
 a=(n//10)*10
@@ -193,6 +193,23 @@ if((b-n)<=(n-a)):
     print(100-b)
 else:
     print(100-a)
+   <20> PYTHON PROGRAM WITH USING SUPER KEYWORD
+
+   class parent:
+    def show(self):
+        print("this is parent class")
+class child(parent):
+    def display(self):
+        print("this is a child class")
+    def show(self):
+        super().show()
+child=child()
+child.display()
+child.show()
+
+
+
+    
     
 
 
