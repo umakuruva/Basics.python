@@ -207,7 +207,94 @@ child=child()
 child.display()
 child.show()
 
+<21> PYTHON PROGRAM HECK WETHER THE TWO RECTANGLES ARE OVERLAP OR NOT:
+     import math
+ax1,ay1,ax2,ay2=map(int,input().split())
+bx1,by1,bx2,by2=map(int,input().split())
+cx1=max(ax1,bx1)
+cx2=min(ax2,bx2)
+cy1=max(ay1,by1)
+cy2=min(ay2,by2)
+d1=cx2-cx1
+d2=cy2-cy1
+if (d1>0 and d2>0):
+    print("1")
+else:
+    print("0")
 
+<22>PYTHON PROGRAM TO FOR HACKER MAN 
+
+  a,b=map(int,input().split())
+c=a+b
+l1=[2,3,5,7,11]
+if c in l1:
+    print("Alice")
+else:
+    print("Bob")
+
+ <23>PYTHON PROGRAM FOR DRAWING BOOK
+
+  n=int(input())
+p=int(input())
+a=p//2
+b=(n//2)-(p//2)
+if (a<b):
+    print(a)
+else:
+    print(b)
+
+   <24>PYTHON PROGRAM FOR CHEF AND CHACOLATE
+
+     x,y,z=map(int,input().split())
+a=x*5
+b=y*10
+c=a+b
+d=c//z
+print(d)
+
+<25>PYTHON PROGRAM FOR CLOSEST NUMBER
+
+  n,m=map(int,input().split())
+a=(n//m)*m
+b=a+m
+if((b-n)<=(n-a)):
+    print(b)
+else:
+    print(a)
+    <26> PYTHON PROGRAM FOR ONLINE OR OFFLINE
+
+        n,m=map(int,input().split())
+a=n*0.1
+b=n-a
+if(m<b):
+    print("offline")
+else:
+    print("online")
+
+   <27>PYTHON PROGRAM FOR RETURN THE CHANGE
+
+    n=int(input())
+a=(n//10)*10
+b=a+10
+if((b-n)<=(n-a)):
+    print(100-b)
+else:
+    print(100-a)
+
+<28>PYTHON PROGRAM FOR HACKER MAN
+
+ a,b=map(int,input().split())
+c=a+b
+l1=[2,3,5,7,11]
+if c in l1:
+    print("Alice")
+else:
+    print("Bob")
+
+    
+
+
+    
 
     
     
