@@ -291,8 +291,17 @@ if c in l1:
 else:
     print("Bob")
 
-    
-
+  <29>PYTHON PROGRAM TO FIND ATTENDANCE ARWS FOR STUDENTS:
+  
+class Solution:
+    def checkRecord(self, s: str) -> bool:
+        count_absent=s.count("A")
+        count_late=s.count("L")
+        if(count_absent<2 and 'LLL' not in s):
+            return True
+        else:
+            return False    
+        
 
     
 
