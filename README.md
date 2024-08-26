@@ -324,8 +324,34 @@ class Solution:
                 print("*",end=" ")
            print() 
            
+<32>python program to print stars in heart shape
 
-    
+#python program to print the heart shape 
+for i in range(6):
+    for j in range(7):
+        if(i==0 and j%3!=0)or (i==1 and j%3==0) or (i-j==2) or (i+j==8):
+            print("*",end=" ")
+        else:
+            print(end=" ")
+    print()        
+
+    <33> pythonprogram t print full triangle
+        *
+       * *
+      * * * 
+     * * * * 
+
+     #python program to print the heart shape 
+#python program to print the heart shape 
+ n=6
+for i in range(n):
+    for j in range(i,n):
+        print(" ",end=" ")
+    for j in range(i):
+        print("*",end=" ")
+    for j in range(i+1):
+        print("*",end=" ")
+    print()       
     
 
 
