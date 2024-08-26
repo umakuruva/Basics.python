@@ -301,9 +301,29 @@ class Solution:
             return True
         else:
             return False    
-        
+      <30>program to print the pattern given below
+      
+            *
+            * *
+            * * *
+            *  * * *
 
-    
+     num=int(input())
+     for i in range(1,num+1):
+        for j in range(1,i+1):
+           print("*",end=" )
+        print()
+     <31> program toprint the pattern given below
+           * * * *
+           * * *
+           * *
+           *
+       n=int(input())
+       for i in range(num,0,-1):
+            for j in range(1,i):
+                print("*",end=" ")
+           print() 
+           
 
     
     
