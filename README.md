@@ -389,4 +389,65 @@ for i in range(n):
     for j in range(i,n-1):
         print("*",end=" ")
     print()    
-    
+    <36> PYRHO PROGRAM TO PRINT PRIME NUMBER
+    n=int(input())
+result=True
+for i in range(2,n):
+    if(n%i==0):
+        result=False
+        break
+if(result==True):
+    print("1")
+else:
+    print("0")
+
+<36> python program for sum of ranges
+m,n=map(int,input().split())
+div_num=[]
+notdiv_num=[]
+for i in range(1,n+1):
+    if(i%m==0):
+        div_num.append(i)
+    else:
+        notdiv_num.append(i)
+sum1=sum(div_num)
+sum2=sum(notdiv_num)
+print(sum2-sum1)
+
+<37> PYTHON PROGRAM FOR COMMON FACTRO OF TWO NUMBERS
+
+m,n=map(int,input().split())
+l1=[]
+l2=[]
+l3=[]
+for i in range(1,m+1):
+    if(m%i==0):
+        l1.append(i)
+for j in range(1,n+1):
+    if(n%j==0):
+        l2.append(j)
+for i in l1:
+    if i in l2:
+        l3.append(i)
+for i in l3:
+    print(i,end=" ")
+ <38>PYTHON PROGRAM FOR FIRST AND LAST EQUAL OR NOT
+
+ n=int(input())
+s=str(n)
+l1=list(s)
+a=len(l1)
+if(l1[0]==l1[a-1]):
+    print("true")
+else:
+    print("false")
+<39> PYTHON PROGRAM FOR POWER OF TWO
+
+n=int(input())
+l1=[]
+for i in range(n):
+    l1.append((2**i))
+if n in l1:
+    print("true")
+else:
+    print("false")
